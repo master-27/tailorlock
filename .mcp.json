@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "tailorlock": {
+      "command": "uv",
+      "args": ["run", "tailorlock-mcp"]
+    }
+  }
+}

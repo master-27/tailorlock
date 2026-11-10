@@ -1,0 +1,53 @@
+# ============================================================================
+# POLICY — the contract between the resume owner and the AI.
+# The AI can only change what is listed under `editable`, within the limits.
+# Everything else is locked by construction: the patch format has no field
+# for it, and the validator rejects anything it does not recognise.
+# Tuned to the owner's one-page LaTeX-style layout (6 bullets on the main role).
+# ============================================================================
+page_limit: 1
+
+editable:
+  title:
+    max_chars: 0            # 0 = this layout has no title line; any title in a patch is rejected
+  summary:
+    min_chars: 250
+    max_chars: 520
+  skills:
+    # The AI may choose a subset and an order (group order follows first appearance).
+    # It may NOT add or rename skills.
+    min_count: 20
+    max_count: 44
+  bullets:
+    rewrite: true
+    relabel: true           # the bold lead-in ("Payments & Reconciliation") may be reworded
+    label_max_chars: 40
+    max_chars: 300
+    min_per_role: 1
+    max_per_role: 6
+    min_per_project: 2
+    max_per_project: 3
+    max_projects: 2
+
+rules:
+  # Any digit sequence in a rewritten bullet must already appear in the original bullet.
+  no_new_numbers: true
+  forbidden_phrases:
+    # owner has not used these (me/master_resume.md "Not claimed")
+    - Next.js
+    - Redux
+    # filler
+    - results-driven
+    - passionate
+    - synergy
+    - team player
+    - detail-oriented
+    - responsible for
+    - cutting-edge
+  forbidden_starters:
+    - Responsible
+    - Worked on
+    - Helped
+    - Was
+    - I
+  no_first_person: true

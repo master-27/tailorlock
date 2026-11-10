@@ -1,0 +1,114 @@
+[
+  {
+    "jd": "axionix-nodejs-backend",
+    "ok": true,
+    "valid_first_try": true,
+    "attempts": 1,
+    "pages": 1,
+    "coverage": 0.5,
+    "coverage_master_all_bullets": 0.5,
+    "missed": [
+      "security",
+      "databases",
+      "git",
+      "axionix",
+      "front-end",
+      "practices",
+      "technologies",
+      "gurugram"
+    ],
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "cache_read": 0,
+    "cost_usd": 0.0,
+    "seconds": 0.2,
+    "statuses": [
+      "ok"
+    ],
+    "meets_min_coverage": true
+  },
+  {
+    "jd": "nordavo-agentic-ai-engineer",
+    "ok": true,
+    "valid_first_try": true,
+    "attempts": 1,
+    "pages": 1,
+    "coverage": 0.4,
+    "coverage_master_all_bullets": 0.4,
+    "missed": [
+      "cursor",
+      "databases",
+      "codex",
+      "permissions",
+      "dutch",
+      "internal tools",
+      "evals",
+      "logging"
+    ],
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "cache_read": 0,
+    "cost_usd": 0.0,
+    "seconds": 0.2,
+    "statuses": [
+      "ok"
+    ],
+    "meets_min_coverage": false
+  },
+  {
+    "jd": "ruloans-fullstack-sde1",
+    "ok": true,
+    "valid_first_try": true,
+    "attempts": 1,
+    "pages": 1,
+    "coverage": 0.2,
+    "coverage_master_all_bullets": 0.2,
+    "missed": [
+      "full-stack",
+      "link",
+      "noida",
+      "ruloans",
+      "https",
+      "www.linkedin.com/jobs/view/4480626351",
+      "location",
+      "asked"
+    ],
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "cache_read": 0,
+    "cost_usd": 0.0,
+    "seconds": 0.2,
+    "statuses": [
+      "ok"
+    ],
+    "meets_min_coverage": false
+  },
+  {
+    "jd": "uplers-java-springboot-backend",
+    "ok": true,
+    "valid_first_try": true,
+    "attempts": 1,
+    "pages": 1,
+    "coverage": 0.63,
+    "coverage_master_all_bullets": 0.63,
+    "missed": [
+      "logging",
+      "security",
+      "strong",
+      "apply",
+      "opportunity",
+      "production",
+      "git",
+      "uplers"
+    ],
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "cache_read": 0,
+    "cost_usd": 0.0,
+    "seconds": 0.2,
+    "statuses": [
+      "ok"
+    ],
+    "meets_min_coverage": true
+  }
+]

@@ -1,0 +1,7 @@
+SKILLS
+  shown (42): sk-java, sk-react, sk-redis, sk-sqs, sk-sns, sk-kafka, sk-ecs, sk-fargate, sk-cfn, sk-node, sk-vector, sk-js, sk-ts, sk-go, sk-sql, sk-html, sk-spring, sk-express, sk-rest, sk-micro, sk-eda, sk-codesplit, sk-webvitals, sk-mysql, sk-postgres, sk-mongo, sk-distlock, sk-idem, sk-ecr, sk-s3, sk-docker, sk-jest, sk-unit, sk-integ, sk-cicd, sk-deploy, sk-llm, sk-embed, sk-rag, sk-claude, sk-agentskills, sk-mcp
+SECTION exp-farmart-sde [changed]
+  kept: exp-farmart-sde-pay, exp-farmart-sde-lock, exp-farmart-sde-onboard, exp-farmart-sde-notif, exp-farmart-sde-infra, exp-farmart-sde-feperf
+  dropped: exp-farmart-sde-agents, exp-farmart-sde-prefetch
+RATIONALE
+  baseline: keyword-overlap ranking, no rewrites

@@ -1,0 +1,6 @@
+{
+  "nordavo-agentic-ai-engineer":   {"min_coverage": 0.50, "must_mention": ["mcp", "claude code", "hooks"]},
+  "uplers-java-springboot-backend": {"min_coverage": 0.45, "must_mention": ["spring boot", "java", "microservices"]},
+  "axionix-nodejs-backend":         {"min_coverage": 0.45, "must_mention": ["node.js", "express", "redis"]},
+  "ruloans-fullstack-sde1":         {"min_coverage": 0.40, "must_mention": ["react", "node.js"]}
+}

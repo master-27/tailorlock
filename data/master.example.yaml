@@ -1,0 +1,195 @@
+# ============================================================================
+# EXAMPLE MASTER RESUME — fictional persona, same shape as a real one.
+# Used by the tests and by anyone trying the project without their own data:
+#     cp data/master.example.yaml data/master.yaml
+# Every bullet has a stable id; `**...**` renders bold; `label` is the bold
+# lead-in. Numbers here are invented for the fictional candidate.
+# ============================================================================
+basics:
+  name: Aarav Mehta
+  title: ""
+  email: aarav.mehta@example.com
+  phone: "+91 98XXX XXXXX"
+  location: Bengaluru, India
+  links:
+    - {label: LinkedIn, url: "https://linkedin.com/in/aaravm"}
+    - {label: GitHub,   url: "https://github.com/aaravm"}
+
+summary: >-
+  Software engineer with 4 years building backend services for payments,
+  procurement and logistics in Java/Spring Boot and Node.js, with Go for
+  high-throughput workers. Experienced in distributed locking, asynchronous
+  processing, AWS deployments and CI/CD, and in building production LLM
+  features with RAG and vector search.
+
+skills:
+  - {id: sk-java,        name: Java,                     group: Languages}
+  - {id: sk-js,          name: JavaScript (ES6+),        group: Languages}
+  - {id: sk-ts,          name: TypeScript,               group: Languages}
+  - {id: sk-go,          name: Go,                       group: Languages}
+  - {id: sk-sql,         name: SQL,                      group: Languages}
+  - {id: sk-html,        name: HTML/CSS,                 group: Languages}
+  - {id: sk-spring,      name: Spring Boot,              group: Backend}
+  - {id: sk-node,        name: Node.js,                  group: Backend}
+  - {id: sk-express,     name: Express.js,               group: Backend}
+  - {id: sk-rest,        name: REST APIs,                group: Backend}
+  - {id: sk-micro,       name: Microservices,            group: Backend}
+  - {id: sk-eda,         name: Event-Driven Architecture, group: Backend}
+  - {id: sk-react,       name: React,                    group: Frontend}
+  - {id: sk-codesplit,   name: Code Splitting,           group: Frontend}
+  - {id: sk-webvitals,   name: "Web Vitals (LCP, INP)",  group: Frontend}
+  - {id: sk-mysql,       name: MySQL,                    group: "Databases & Caching"}
+  - {id: sk-postgres,    name: PostgreSQL,               group: "Databases & Caching"}
+  - {id: sk-mongo,       name: MongoDB,                  group: "Databases & Caching"}
+  - {id: sk-redis,       name: Redis,                    group: "Databases & Caching"}
+  - {id: sk-sqs,         name: AWS SQS,                  group: "Messaging & Distributed Systems"}
+  - {id: sk-sns,         name: AWS SNS,                  group: "Messaging & Distributed Systems"}
+  - {id: sk-kafka,       name: Apache Kafka,             group: "Messaging & Distributed Systems"}
+  - {id: sk-distlock,    name: Distributed Locking,      group: "Messaging & Distributed Systems"}
+  - {id: sk-idem,        name: Idempotency,              group: "Messaging & Distributed Systems"}
+  - {id: sk-ecs,         name: AWS ECS,                  group: "Cloud & Infrastructure"}
+  - {id: sk-fargate,     name: AWS Fargate,              group: "Cloud & Infrastructure"}
+  - {id: sk-ecr,         name: Amazon ECR,               group: "Cloud & Infrastructure"}
+  - {id: sk-s3,          name: Amazon S3,                group: "Cloud & Infrastructure"}
+  - {id: sk-docker,      name: Docker,                   group: "Cloud & Infrastructure"}
+  - {id: sk-cfn,         name: AWS CloudFormation,       group: "Cloud & Infrastructure"}
+  - {id: sk-jest,        name: Jest,                     group: "Testing & Delivery"}
+  - {id: sk-unit,        name: Unit Testing,             group: "Testing & Delivery"}
+  - {id: sk-integ,       name: Integration Testing,      group: "Testing & Delivery"}
+  - {id: sk-cicd,        name: CI/CD,                    group: "Testing & Delivery"}
+  - {id: sk-deploy,      name: Automated Deployments,    group: "Testing & Delivery"}
+  - {id: sk-llm,         name: LLM APIs,                 group: AI Engineering}
+  - {id: sk-embed,       name: Text Embeddings,          group: AI Engineering}
+  - {id: sk-rag,         name: RAG,                      group: AI Engineering}
+  - {id: sk-vector,      name: pgvector,                 group: AI Engineering}
+  - {id: sk-claude,      name: Claude Code,              group: AI Engineering}
+  - {id: sk-agentskills, name: Agent Skills,             group: AI Engineering}
+  - {id: sk-mcp,         name: MCP Servers,              group: AI Engineering}
+
+experience:
+  - id: exp-acme-sde
+    company: Acme Supply Co.
+    role: Software Development Engineer
+    location: Bengaluru, India
+    start: Jan 2023
+    end: Present
+    bullets:
+      - id: exp-acme-sde-pay
+        label: Payments & Reconciliation
+        text: >-
+          Integrated a payment gateway supporting **120 Cr+ monthly payment volume**
+          and built reconciliation flows for credit/debit notes, deductions and
+          buyer payments.
+      - id: exp-acme-sde-lock
+        label: Concurrency & Data Integrity
+        text: >-
+          Implemented Redis-based distributed locking and idempotency keys to prevent
+          duplicate order creation under concurrent requests, reducing duplicate
+          transaction incidents by **92%**.
+      - id: exp-acme-sde-onboard
+        label: Onboarding Automation
+        text: >-
+          Integrated external verification APIs into supplier onboarding, reducing
+          onboarding time by **85%**.
+      - id: exp-acme-sde-notif
+        label: Asynchronous Notifications
+        text: >-
+          Developed a notification service in **Go** using goroutines and worker pools
+          to consume AWS SQS queues and deliver invoice and order updates to
+          **6,000+ suppliers**, with automated retry policies.
+      - id: exp-acme-sde-infra
+        label: Cloud Infrastructure & CI/CD
+        text: >-
+          Containerized backend services using Docker and deployed them through Amazon
+          ECR, AWS ECS and AWS Fargate, with automated CI/CD workflows.
+      - id: exp-acme-sde-agents
+        label: AI-Assisted Engineering
+        text: >-
+          Developed reusable agent skills and a context architecture that give AI
+          coding agents (Claude Code) project context and structured task execution.
+      - id: exp-acme-sde-feperf
+        label: Frontend Performance
+        text: >-
+          Cut the React app's initial bundle from **5 MB to under 400 KB per chunk**
+          with code splitting and lazy loading, improving LCP and INP by **60–70%**.
+      - id: exp-acme-sde-prefetch
+        label: Predictive Prefetching
+        text: >-
+          Implemented predictive route prefetching from navigation telemetry, reaching a
+          **61% prefetch hit rate** and **sub-200ms** transitions.
+
+  - id: exp-acme-intern
+    company: Acme Supply Co.
+    role: Software Developer Intern
+    location: Bengaluru, India
+    start: Jul 2022
+    end: Dec 2022
+    bullets:
+      - id: exp-acme-intern-assets
+        label: Asset Upload Service
+        text: >-
+          Built a **Node.js** upload backend using Amazon S3 presigned URLs so clients
+          upload images and documents directly to S3, removing file traffic from the
+          application servers.
+
+  - id: exp-uni-intern
+    company: University Research Lab
+    role: Software Engineer Intern
+    location: Pune, India
+    start: Jan 2022
+    end: May 2022
+    bullets:
+      - id: exp-uni-intern-api
+        label: Assessment Platform
+        text: >-
+          Built Java/Spring Boot REST APIs for an online assessment system.
+      - id: exp-uni-intern-auth
+        label: Authentication & Data Access
+        text: >-
+          Implemented OAuth/JWT-based authentication and optimised MySQL queries.
+
+projects:
+  - id: prj-mentor
+    name: AI Mentorship & Discovery Platform
+    subtitle: AI-Powered Discovery and Recommendations
+    stack: Node.js, Express.js, pgvector, RAG
+    link: "https://example.com/mentor"
+    bullets:
+      - id: prj-mentor-apis
+        text: >-
+          Built Node.js and Express.js APIs for user management and AI-powered discovery
+          and recommendation workflows.
+      - id: prj-mentor-rag
+        text: >-
+          Developed a RAG pipeline using text embeddings and pgvector to retrieve
+          relevant records and ground LLM responses in context.
+      - id: prj-mentor-match
+        text: >-
+          Implemented semantic matching of user interests and goals, with Redis caching
+          and index tuning to keep vector retrieval under **120ms**.
+
+  - id: prj-tailorlock
+    name: TailorLock, locked-template resume tailoring for AI agents
+    subtitle: Claude Code harness extension
+    stack: Python, Typst, MCP, Claude Code hooks & skills
+    link: ""
+    bullets:
+      - id: prj-tailorlock-mcp
+        text: >-
+          Built an MCP server, PreToolUse guard hook, skill, custom command and two
+          subagents so a coding agent can tailor a resume to a job description while
+          only touching whitelisted fields.
+      - id: prj-tailorlock-gate
+        text: >-
+          Every proposed change passes a deterministic validator (no new numbers,
+          length and count limits) and a Typst one-page render check before it is
+          accepted; each attempt is logged with cost.
+
+education:
+  - id: edu-example
+    institution: Example Institute of Technology
+    degree: Bachelor of Technology in Computer Science (CGPA 8.4/10)
+    location: Pune, India
+    start: 2018
+    end: 2022
+    coursework: Data Structures and Algorithms, Operating Systems, Computer Networks, Database Management Systems

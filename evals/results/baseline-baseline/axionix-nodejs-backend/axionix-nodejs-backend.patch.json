@@ -1,0 +1,95 @@
+{
+  "title": null,
+  "summary": null,
+  "skills": [
+    "sk-node",
+    "sk-rest",
+    "sk-codesplit",
+    "sk-claude",
+    "sk-sql",
+    "sk-unit",
+    "sk-llm",
+    "sk-micro",
+    "sk-eda",
+    "sk-webvitals",
+    "sk-mongo",
+    "sk-sqs",
+    "sk-sns",
+    "sk-ecs",
+    "sk-fargate",
+    "sk-docker",
+    "sk-cfn",
+    "sk-integ",
+    "sk-vector",
+    "sk-agentskills",
+    "sk-java",
+    "sk-js",
+    "sk-ts",
+    "sk-go",
+    "sk-html",
+    "sk-spring",
+    "sk-express",
+    "sk-react",
+    "sk-mysql",
+    "sk-postgres",
+    "sk-redis",
+    "sk-kafka",
+    "sk-distlock",
+    "sk-idem",
+    "sk-ecr",
+    "sk-s3",
+    "sk-jest",
+    "sk-cicd",
+    "sk-deploy",
+    "sk-embed",
+    "sk-rag",
+    "sk-mcp"
+  ],
+  "sections": {
+    "exp-farmart-sde": {
+      "include": [
+        "exp-farmart-sde-pay",
+        "exp-farmart-sde-onboard",
+        "exp-farmart-sde-notif",
+        "exp-farmart-sde-infra",
+        "exp-farmart-sde-agents",
+        "exp-farmart-sde-feperf"
+      ],
+      "rewrites": {},
+      "relabel": {}
+    },
+    "exp-farmart-intern": {
+      "include": [
+        "exp-farmart-intern-assets"
+      ],
+      "rewrites": {},
+      "relabel": {}
+    },
+    "exp-iitk-intern": {
+      "include": [
+        "exp-iitk-intern-api",
+        "exp-iitk-intern-auth"
+      ],
+      "rewrites": {},
+      "relabel": {}
+    },
+    "prj-mentoros": {
+      "include": [
+        "prj-mentoros-apis",
+        "prj-mentoros-rag",
+        "prj-mentoros-match"
+      ],
+      "rewrites": {},
+      "relabel": {}
+    },
+    "prj-tailorlock": {
+      "include": [
+        "prj-tailorlock-mcp",
+        "prj-tailorlock-gate"
+      ],
+      "rewrites": {},
+      "relabel": {}
+    }
+  },
+  "rationale": "baseline: keyword-overlap ranking, no rewrites"
+}
